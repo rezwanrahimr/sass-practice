@@ -4,3 +4,27 @@
   border: 0;
   box-sizing: border-box;
 }
+
+// color decleration.
+$header-color: black;
+$main-color: green;
+$footer-color: yellow;
+
+//apply color.
+main h2 {
+  color: white;
+  background-color: $header-color;
+  //   display: inline;
+  text-align: center;
+}
+
+main p {
+  background-color: $main-color;
+  padding: 50px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: $footer-color;
+}
